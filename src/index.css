@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply m-0 min-h-screen bg-night-900 font-sans text-white;
+    background-image: linear-gradient(135deg, #0b1020, #11162a 60%, #10282b);
+  }
+
+  button,
+  input {
+    font: inherit;
+  }
+}
